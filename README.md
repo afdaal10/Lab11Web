@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS artikel (
 );
 ```
 
-**Screenshot:** *[Tampilkan screenshot pembuatan database di phpMyAdmin]*
+![Screenshot tabel](database.png)
 
 ### 2. Konfigurasi Database (config.php)
 
