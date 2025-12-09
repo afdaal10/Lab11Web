@@ -69,8 +69,6 @@ $config = [
 ?>
 ```
 
-**Screenshot:** *[Tampilkan screenshot file config.php]*
-
 ### 3. Class Database (class/Database.php)
 
 Class ini menangani operasi database (CRUD - Create, Read, Update, Delete).
@@ -82,7 +80,6 @@ Class ini menangani operasi database (CRUD - Create, Read, Update, Delete).
 - `update()` - Mengubah data
 - `delete()` - Menghapus data
 
-**Screenshot:** *[Tampilkan screenshot class Database.php]*
 
 ### 4. Class Form (class/Form.php)
 
@@ -95,8 +92,6 @@ Class ini untuk membuat form input dinamis dengan berbagai tipe input.
 - Select/Dropdown
 - Radio Button
 - Checkbox
-
-**Screenshot:** *[Tampilkan screenshot class Form.php]*
 
 ### 5. File .htaccess
 
@@ -112,7 +107,6 @@ File ini mengatur URL rewriting agar routing dapat berfungsi.
 </IfModule>
 ```
 
-**Screenshot:** *[Tampilkan screenshot file .htaccess]*
 
 ### 6. Routing System (index.php)
 
@@ -124,26 +118,22 @@ File ini adalah gerbang utama yang menangani routing ke modul-modul.
 - Page: `index`
 - File: `module/artikel/index.php`
 
-**Screenshot:** *[Tampilkan screenshot index.php]*
 
 ### 7. Template System
 
 #### template/header.php
 Berisi header HTML, CSS, dan navigasi.
 
-**Screenshot:** *[Tampilkan screenshot header.php]*
 
 #### template/footer.php
 Berisi penutup HTML dan footer.
 
-**Screenshot:** *[Tampilkan screenshot footer.php]*
 
 ### 8. Module Home
 
 #### module/home/index.php
 Halaman utama/beranda aplikasi.
 
-**Screenshot:** *[Tampilkan screenshot tampilan home]*
 
 ### 9. Module Artikel
 
@@ -155,26 +145,18 @@ Menampilkan daftar artikel dari database.
 - Tombol tambah artikel
 - Tombol edit dan hapus per artikel
 
-**Screenshot:** *[Tampilkan screenshot daftar artikel]*
 
 #### module/artikel/tambah.php
 Form untuk menambah artikel baru.
 
-**Screenshot:** *[Tampilkan screenshot form tambah artikel]*
-
-**Screenshot hasil tambah:** *[Tampilkan screenshot setelah data berhasil disimpan]*
 
 #### module/artikel/ubah.php
 Form untuk mengubah artikel yang sudah ada.
 
-**Screenshot:** *[Tampilkan screenshot form edit artikel]*
-
-**Screenshot hasil update:** *[Tampilkan screenshot setelah data berhasil diupdate]*
 
 #### module/artikel/hapus.php
 Proses menghapus artikel.
 
-**Screenshot:** *[Tampilkan screenshot konfirmasi hapus dan hasil setelah dihapus]*
 
 ## Konsep yang Dipelajari
 
@@ -208,19 +190,19 @@ Memisahkan bagian layout (header, footer) dari konten untuk menghindari duplikas
 ## Hasil Output
 
 ### 1. Halaman Home
-*[Screenshot halaman home]*
+![Screenshot tabel](home.png)
 
 ### 2. Halaman Daftar Artikel
-*[Screenshot daftar artikel dengan data]*
+![Screenshot tabel](artikel.png)
 
 ### 3. Halaman Tambah Artikel
-*[Screenshot form tambah artikel]*
+![Screenshot tabel](tambah_artikel.png)
 
-### 4. Halaman Edit Artikel
-*[Screenshot form edit artikel]*
+### 4. Halaman User
+![Screenshot tabel](user.png)
 
-### 5. Proses Hapus Artikel
-*[Screenshot konfirmasi dan hasil hapus]*
+### 5. Halaman Tambah User
+![Screenshot tabel](tambah_user.png)
 
 ## Cara Menjalankan Project
 
