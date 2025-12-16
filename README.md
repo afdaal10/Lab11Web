@@ -187,23 +187,6 @@ Menggunakan `.htaccess` untuk membuat URL yang lebih bersih dan SEO-friendly.
 ### 4. Template System
 Memisahkan bagian layout (header, footer) dari konten untuk menghindari duplikasi kode.
 
-## Hasil Output
-
-### 1. Halaman Home
-![Screenshot tabel](home.png)
-
-### 2. Halaman Daftar Artikel
-![Screenshot tabel](artikel.png)
-
-### 3. Halaman Tambah Artikel
-![Screenshot tabel](tambah_artikel.png)
-
-### 4. Halaman User
-![Screenshot tabel](user.png)
-
-### 5. Halaman Tambah User
-![Screenshot tabel](tambah_user.png)
-
 ## Cara Menjalankan Project
 
 1. Pastikan XAMPP sudah terinstall dan Apache + MySQL aktif
