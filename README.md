@@ -187,27 +187,6 @@ Menggunakan `.htaccess` untuk membuat URL yang lebih bersih dan SEO-friendly.
 ### 4. Template System
 Memisahkan bagian layout (header, footer) dari konten untuk menghindari duplikasi kode.
 
-## Cara Menjalankan Project
-
-1. Pastikan XAMPP sudah terinstall dan Apache + MySQL aktif
-2. Copy folder `lab11_php_oop` ke `C:\xampp\htdocs\`
-3. Import database menggunakan file `database.sql`
-4. Sesuaikan konfigurasi di `config.php`
-5. Buka browser dan akses: `http://localhost/lab11_php_oop/`
-
-## Testing
-
-### Test Routing
-- ✓ Home: `http://localhost/lab11_php_oop/home/index`
-- ✓ Artikel: `http://localhost/lab11_php_oop/artikel/index`
-- ✓ Tambah: `http://localhost/lab11_php_oop/artikel/tambah`
-
-### Test CRUD Operations
-- ✓ Create: Tambah artikel baru
-- ✓ Read: Tampilkan daftar artikel
-- ✓ Update: Edit artikel
-- ✓ Delete: Hapus artikel
-
 ## Kesimpulan
 
 Dari praktikum ini, saya telah mempelajari:
