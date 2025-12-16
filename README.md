@@ -247,7 +247,6 @@ Framework ini dapat dikembangkan lebih lanjut dengan menambahkan:
 - PHP OOP Tutorial
 
 ---
-**Universitas Pelita Bangsa - 2024**
 
 # Praktikum 11 & 12: PHP OOP Framework dengan Autentikasi
 
@@ -258,7 +257,7 @@ Framework ini dapat dikembangkan lebih lanjut dengan menambahkan:
 
 Menampilkan semua artikel dalam bentuk tabel dengan tombol Edit dan Hapus.
 
-**Screenshot:** *[Tampilkan screenshot halaman daftar artikel dengan data]*
+![Screenshot daftar](daftar_artikel2.png)
 
 ---
 
@@ -266,9 +265,8 @@ Menampilkan semua artikel dalam bentuk tabel dengan tombol Edit dan Hapus.
 
 Form untuk menambah artikel baru menggunakan Bootstrap.
 
-**Screenshot:** *[Tampilkan screenshot form tambah artikel]*
+![Screenshot tambah](tambah_artikel2.png)
 
-**Screenshot setelah simpan:** *[Tampilkan screenshot alert sukses setelah data berhasil disimpan]*
 
 ---
 
@@ -276,9 +274,7 @@ Form untuk menambah artikel baru menggunakan Bootstrap.
 
 Form untuk mengubah artikel yang sudah ada dengan data ter-filled.
 
-**Screenshot:** *[Tampilkan screenshot form edit artikel dengan data yang sudah ada]*
-
-**Screenshot setelah update:** *[Tampilkan screenshot alert sukses setelah data berhasil diupdate]*
+![Screenshot edit](edit_artikel.png)
 
 ---
 
@@ -286,7 +282,7 @@ Form untuk mengubah artikel yang sudah ada dengan data ter-filled.
 
 Proses menghapus artikel dengan konfirmasi JavaScript.
 
-**Screenshot:** *[Tampilkan screenshot konfirmasi hapus dan hasil setelah dihapus]*
+![Screenshot hapus](hapus_artikel.png)
 
 ---
 
@@ -296,7 +292,8 @@ Proses menghapus artikel dengan konfirmasi JavaScript.
 
 Menampilkan semua user dengan field lengkap.
 
-**Screenshot:** *[Tampilkan screenshot daftar user]*
+![Screenshot user](daftar_user.png)
+
 
 ---
 
@@ -310,7 +307,7 @@ Form lengkap menggunakan Class Form dengan berbagai tipe input:
 - Checkbox (Hobi - multi pilihan)
 - Textarea (Alamat)
 
-**Screenshot:** *[Tampilkan screenshot form tambah user dengan semua tipe input]*
+![Screenshot tambah](tambah_user2.png)
 
 ---
 
@@ -318,7 +315,7 @@ Form lengkap menggunakan Class Form dengan berbagai tipe input:
 
 Form edit user dengan data yang sudah ter-filled.
 
-**Screenshot:** *[Tampilkan screenshot form edit user]*
+![Screenshot edit](edit_user.png)
 
 ---
 
@@ -326,7 +323,8 @@ Form edit user dengan data yang sudah ter-filled.
 
 Proses hapus data user.
 
-**Screenshot:** *[Tampilkan screenshot hasil hapus user]*
+![Screenshot hapus](hapus_user.png)
+
 
 ---
 
@@ -334,7 +332,7 @@ Proses hapus data user.
 
 Halaman utama yang menampilkan informasi framework.
 
-**Screenshot:** *[Tampilkan screenshot halaman home]*
+![Screenshot tabel](tampilan_home.png)
 
 ---
 
@@ -368,8 +366,6 @@ INSERT INTO users_auth (username, password, nama)
 VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Afdal Agislam');
 ```
 
-**Catatan:** Password di-hash menggunakan `password_hash('admin123', PASSWORD_DEFAULT)`
-
 **Screenshot:** *[Tampilkan screenshot tabel users_auth di phpMyAdmin]*
 
 ---
@@ -400,7 +396,7 @@ Menambahkan pengecekan session sebelum mengakses halaman tertentu.
 - Redirect ke halaman artikel setelah login
 - Tampilan dengan gradient background
 
-**Screenshot:** *[Tampilkan screenshot halaman login sebelum login]*
+![Screenshot tabel](tampilan_login.png)
 
 ---
 
@@ -416,7 +412,7 @@ Menambahkan pengecekan session sebelum mengakses halaman tertentu.
    - `$_SESSION['nama'] = 'Afdal Agislam'`
 5. Redirect ke halaman artikel
 
-**Screenshot:** *[Tampilkan screenshot setelah login berhasil - halaman artikel dengan nama user di navbar]*
+![Screenshot tabel](daftar_artikel2.png)
 
 ---
 
@@ -424,7 +420,8 @@ Menambahkan pengecekan session sebelum mengakses halaman tertentu.
 
 Jika username atau password salah, muncul alert error.
 
-**Screenshot:** *[Tampilkan screenshot alert error "Username atau password salah!"]*
+![Screenshot tabel](tampilan_eror.png)
+
 
 ---
 
@@ -435,30 +432,7 @@ Jika username atau password salah, muncul alert error.
 2. `session_destroy()`
 3. Redirect ke halaman login
 
-**Screenshot:** *[Tampilkan screenshot setelah logout - kembali ke halaman login]*
-
----
-
-##  Menu Navigasi Dinamis
-
-### Header dengan Session Check
-
-Menu navigasi berubah berdasarkan status login:
-
-**Sebelum Login:**
-- Home
-- Login
-
-**Setelah Login:**
-- Home
-- Data Artikel
-- Data User
-- Profil
-- Logout (👤 Afdal Agislam)
-
-**Screenshot Before Login:** *[Tampilkan screenshot navbar sebelum login]*
-
-**Screenshot After Login:** *[Tampilkan screenshot navbar setelah login dengan nama user]*
+![Screenshot tabel](tampilan_login.png)
 
 ---
 
@@ -468,7 +442,7 @@ Menu navigasi berubah berdasarkan status login:
 
 Ketika mencoba akses `http://localhost/lab11_php_oop/index.php?mod=artikel&page=index` tanpa login, otomatis redirect ke login.
 
-**Screenshot:** *[Tampilkan screenshot redirect otomatis ke login]*
+![Screenshot tabel](before_login.png)
 
 ---
 
@@ -476,7 +450,7 @@ Ketika mencoba akses `http://localhost/lab11_php_oop/index.php?mod=artikel&page=
 
 Setelah login, bisa mengakses semua menu.
 
-**Screenshot:** *[Tampilkan screenshot bisa akses semua menu setelah login]*
+![Screenshot tabel](daftar_artikel2.png)
 
 ---
 
@@ -490,7 +464,7 @@ Menampilkan data user yang sedang login:
 - Username: admin
 - Status: Aktif
 
-**Screenshot:** *[Tampilkan screenshot card informasi akun]*
+![Screenshot tabel](tampilan_profile.png)
 
 ---
 
@@ -508,7 +482,7 @@ Menampilkan data user yang sedang login:
 3.  Password baru dan konfirmasi harus sama
 4.  Password di-enkripsi dengan `password_hash()`
 
-**Screenshot:** *[Tampilkan screenshot halaman profil lengkap dengan form ubah password]*
+![Screenshot tabel](tampilan_ubahpw.png)
 
 ---
 
@@ -523,16 +497,7 @@ Menampilkan data user yang sedang login:
 6. Update ke database
 7. Tampilkan alert sukses
 
-**Screenshot:** *[Tampilkan screenshot alert sukses "Password berhasil diubah!"]*
-
----
-
-
-#### 5. Testing Login dengan Password Baru
-
-Setelah ubah password, logout dan coba login dengan password baru.
-
-**Screenshot:** *[Tampilkan screenshot login berhasil dengan password baru]*
+![Screenshot tabel](ubah_password.png)
 
 ---
 
@@ -627,4 +592,4 @@ if (password_verify($input_password, $hash_from_db)) {
 
 
 
-**© 2024 Framework PHP OOP - Praktikum 11 & 12 | Universitas Pelita Bangsa**
+**© 2025 Framework PHP OOP - Praktikum 11 & 12 | Universitas Pelita Bangsa**
